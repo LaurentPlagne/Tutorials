@@ -122,7 +122,7 @@ b(v) = ∫( v*f )*dΩ + ∫( v*h )*dΓ
 
 op = AffineFEOperator(a,b,Ug,V0)
 
-# Note that the `AffineFEOperator` object representing our FE problem is built from the function `a` and `b` representing the weak form and test and trial FE spaces `V0` and `Ug`.
+# Note that the `AffineFEOperator` object representing our FE problem is built from the function `a` and `b` representing the weak form and trial and test FE spaces `V0` and `Ug`.
 #
 #  ## Solver phase
 #
